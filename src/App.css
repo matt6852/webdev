@@ -116,4 +116,7 @@ nav ul li {
   position: relative;
   background-color: transparent;
 }
+.canves{
+  display: none;
+}
 }
