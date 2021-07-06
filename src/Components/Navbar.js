@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          W&D
         </a>
         <button
           className="navbar-toggler"
@@ -26,32 +26,32 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#">
-                Home
+                Главная
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                about me
+                О бо мне
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                services
+                услуги
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                experience
+                опыт
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                projects
+                проеткы
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                contacts
+                контакты
               </a>
             </li>
           </ul>
