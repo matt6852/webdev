@@ -31,7 +31,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                О бо мне
+                Обо мне
               </a>
             </li>
             <li className="nav-item">
