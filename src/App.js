@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import About from "./Components/About";
+import Services from "./Components/Services";
 import Particl from "./Components/Partical";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <About/>
+      <Services/>
     </>
   );
 }

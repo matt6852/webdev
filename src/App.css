@@ -3,8 +3,9 @@
 
 :root {
   --primary-white: #fff;
+  --primary-light-gray: #f4f4f4;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0.9);
+  --primary-dark: rgba(255, 255, 255, 0.8);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
 }
@@ -195,3 +196,54 @@ text-transform: uppercase;
   
 }
 /* end of about */
+
+/* service */
+
+.services{
+  text-align: center;
+  padding-bottom: 2rem;
+  background-color: var(--primary-light-gray);
+}
+
+.services h1{
+  /* color: var(--primary-dark); */
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services .circle{
+  position: relative;
+  margin: 0.4rem auto;
+  background-color: var(--primary-orange);
+  border-radius: 50%;
+  width: 3.12rem;
+  height:  3.12rem;
+}
+.services .icon{
+  font-size: 1.4rem ;
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.services .box{
+  height: 16rem;
+  border-bottom: 5px solid var(--primary-orange) ;
+  padding: 0.625rem;
+  margin-bottom:1.875rem ;
+  background-color: var(--primary-white);
+}
+
+.services .box:hover{
+  background-color: var(--primary-orange);
+  border-bottom: 5px solid  black;
+}
+.services .box:hover .icon{
+  color: black;
+}
+.services .box:hover .circle{
+  background: var(--primary-white);
+}
+/* end of service */
