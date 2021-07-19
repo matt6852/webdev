@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Particl from "./Components/Partical";
+import Experience from "./Components/Experience";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <About/>
       <Services/>
+      <Experience/>
     </>
   );
 }
